@@ -1,0 +1,22 @@
+1. https://github.com/Yash-Bhandari/C404-Lab4
+
+2. A message that says the install worked, with links to documentation and tutorials
+
+3. / is a debug page showing a 404, /polls shows the hello world messge.
+
+4. A migration is a managed and repeatable set of changes to a database. 
+They are needed to ensure that you can create consistent database schemas wherever you run the django server.
+
+5. It's an admin GUI for the database, allowing us to inspect and modify the records.
+To get custom models to show up, we register them as models that should be shown in the admin console.
+
+6. 
+polls/38 "You're looking at question 38."
+polls/38/results "You're looking at the results of question 38."
+polls/38/vote "You're looking at the results of question 38."
+
+If you use a string, you get a 404.
+You would remove the int from '<int:question id>/blah'
+
+7.
+It makes it hard to refactor and it's easy to link to the wrong url.
