@@ -18,5 +18,7 @@ polls/38/vote "You're looking at the results of question 38."
 If you use a string, you get a 404.
 You would remove the int from '<int:question id>/blah'
 
-7.
-It makes it hard to refactor and it's easy to link to the wrong url.
+7. It makes it hard to refactor and it's easy to link to the wrong url.
+
+8. There's less boilerplate and it's more consistent. 
+You don't have to use a generic view if you need a view with custom behavior.
